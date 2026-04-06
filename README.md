@@ -48,3 +48,18 @@ Nội dung chính:
 - Trường hợp thực tế: phân tích file `.pcap` chứa traffic độc hại
 
 Công cụ sử dụng: Wireshark, tcpdump, tshark, NetworkMiner, Scapy
+
+---
+
+4. Triển khai Splunk để Giám sát và Phát hiện Tấn công
+
+Splunk là nền tảng phân tích log mạnh mẽ, được sử dụng rộng rãi trong SOC để thu thập, tìm kiếm và phát hiện các hành vi bất thường trong hệ thống. Báo cáo này tập trung vào việc triển khai Splunk trong môi trường lab và sử dụng nó để phát hiện các cuộc tấn công mạng thông qua phân tích log.
+
+Nội dung chính:
+- Cài đặt Splunk Enterprise trên Linux
+- Thu thập log từ nhiều nguồn
+- Xây dựng truy vấn SPL (Search Processing Language)
+- Phát hiện tấn công Brute-force
+- Phát hiện tấn công SQL Injection
+
+Công cụ sử dụng: Splunk Enterprise, Kali Linux, Hydra, sqlmap, Apache, DVWA, Ubuntu Server
